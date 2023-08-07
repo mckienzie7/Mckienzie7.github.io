@@ -7,7 +7,7 @@
 
 body{
   background-color: #000; 
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: Helvetica, Arial, san-serif;
 }
 
@@ -22,6 +22,7 @@ img {
     text-decoration: none;
     padding: 7px 17px;
     border-radius: 2px;
+    margin-left: 0.67rem;
 }
 
 .btn-lg {
@@ -35,6 +36,8 @@ img {
     border-bottom-left-radius: 0;
 
     border-left: 1px solid #333;
+    width: 30%;
+    height: 21rem;
 }
 .hm {
     position: absolute;
@@ -45,7 +48,7 @@ img {
   
 .hero {
     /* border: 1px solid red; */
-    height: 70vh;
+    height: 100vh;
     background: url(img/US-en-20220815-popsignuptwoweeks-perspective_alpha_website_large.jpg) center center/cover;
     position: relative;
     width:100%;
@@ -88,7 +91,7 @@ img {
     align-items: center;
     text-align: center;
     margin: auto;
-    /* margin-top: 6rem; */
+    margin-top: 13rem;
 }
 
 .hero .text h1 {
@@ -97,7 +100,7 @@ img {
 }
 
 .hero .text h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 100;
     margin-bottom: 1.5rem
 }
@@ -105,9 +108,10 @@ img {
 .hero .text h3 {
     font-size: 1.25rem;
     font-weight: 100;
-    margin-bottom: 1rem
+    margin-bottom: 1.9rem
 
 }
+
 
 .container {
     max-width: 1100px;
@@ -115,24 +119,28 @@ img {
 }
 
 .email-container {
-    width: 100%;
+    width: 70%;
     display: flex;
+    height: 5rem;
 }
 
 .email-container input {
-    width: 100%;
-    font-size:1.625rem;
+    width: 70%;
+    font-size:1.3rem;
     border-radius: 2px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     padding: 10px 10px 0;
     appearance: none;
-    border: 1px solid #8c8c8c;
+    border: 1px transparent #373131;
+    height: 3rem;
     
 }
 
 .email-container a {
-    width:30%;
+    width: 3rem;
+    height: 2rem;
+
 }
 
 .card {
@@ -145,10 +153,17 @@ img {
     justify-content: space-between;
     gap:0.5rem;
 }
-
+.tv-logo-fit {
+    position: absolute;
+   
+}
+.image{
+    position: relative;
+}
 .card .container .text, 
 .card .container .image {
     flex:1;
+    position: relative;
 }
 
 .card h1 {
@@ -158,6 +173,10 @@ img {
 
 .card h2 {
     font-size:1.625rem;
+    font-weight: 400;
+}
+.card h3 {
+    font-size: 3.125rem;
     font-weight: 400;
 }
 
@@ -214,4 +233,7 @@ footer .footer-link-item a {
     /* color:#737373; */
     color: white;
     text-decoration: none;
+}
+.ftr1{
+    height: 70vh;
 }
