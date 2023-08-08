@@ -155,7 +155,12 @@ img {
 }
 .tv-logo-fit {
     position: absolute;
+    top:85px;
+    left:71px;
    
+}
+video {
+    width:400px;
 }
 .image{
     position: relative;
